@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+    <head> 
+<title>
+    Kiswa | كسوة
+</title>
+ <link rel="stylesheet" href="donateForm.css">
+    </head>
+    <body>
+<h1> <strong> Registration form : </strong></h1>
+<div class="form">
+<form action="index.html" method="get">
+<label for="textbox1"> First Name :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="textbox2"> Last Name :</label><br>
+<input id="textbox1" type="text" name="first_name" placeholder="Heba" required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input id="textbox2" type="text" name="last_name" placeholder="El_Taweel" required>
+<br>
+<br>
+<label for="email"> Email :</label><br>
+<input id="email" type="email" name="email" placeholder="hebarezk772@gmail.com" required>
+<br>
+<br>
+
+<label for="amount1">Amount:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+ 
+<label for="amount2">Card value:</label><br>
+<select  id="amount1" class="amount" name ="num" required>
+    <option value="0" selected disabled> Donate as much as you can </option>
+    <option value="1"> 1 </option>
+    <option value="2"> 2 </option>
+    <option value="3"> 3 </option>
+    <option value="4"> 4 </option> 
+    <option value="5"> 5 </option>
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+  <select id="amount2" class="Card value" name ="value" required>
+    <option value="0" selected disabled> Card value </option>
+    <option value="300"> 300 </option>
+    <option value="500"> 500 </option>
+    <option value="700"> 700 </option>
+    <option value="1000"> 1000 </option> 
+    
+  </select>
+<br>
+<br>
+<button onclick="calculate()"> Calculate:</button><br>
+<label id="result" name="result"></label>
+<br>
+<label for="Address">Address :</label><br>
+<input id="Address" type="text" name="Adress" placeholder="Tanta" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<br>
+<label for="birthdate"> Birthdate :</label><br>
+<input id="birthdate" type="date" name="date" required>
+<br>
+<br>
+<label for="male"> Male </label>
+<input id="male" type="radio" name="maleorfemale" value="male">
+<label for="female"> Female </label>
+<input id="female" type="radio" name="maleorfemale" value="female">
+<br>
+<br>
+
+<label for="phone">Phone Number :</label><br>
+<input id="phone" type="text" name="phone_number" placeholder="01555300990" required>
+<br>
+<br>
+<br>
+
+<input class="button" type="submit" value="Register">
+</form>
+</div>
+<script src="home.js"></script>
+    </body>

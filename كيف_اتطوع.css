@@ -1,0 +1,26 @@
+body{
+    background-image: url(Power.jpg);
+    background-position: 3%;
+    background-size: 50%;
+    
+}
+h1{
+    font-style: italic;
+    color: #872341;
+   text-align: center;
+}
+.form{
+    font-style: italic;
+    font-size: x-large;
+    color: #872341;
+    padding-left:  600px;
+}
+.button{
+    padding: 0.9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    font-style: italic;
+    color: #872341;
+  
+}

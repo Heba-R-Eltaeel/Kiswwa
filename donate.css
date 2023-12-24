@@ -1,0 +1,27 @@
+body{
+    background-image: url(donate\(img\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-style: italic;
+    color: #164863;
+    padding-left: 0px;
+}
+.form{
+    font-style: italic;
+    font-size: larger;
+    color: #164863;
+    padding-left: 70px;
+}
+.button{
+    padding: 0.9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    font-style: italic;
+    color:#164863 ;
+    
+    
+}

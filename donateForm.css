@@ -1,0 +1,30 @@
+body{
+    background-image: url(donateFormimg.jpg);
+    background-position: center;
+    background-size: cover;
+     background-repeat: no-repeat; 
+}
+h1{
+    font-style: italic;
+    color: #eeee;
+    padding-left: 0px;
+}
+.form{
+    font-style: italic;
+    font-size: larger;
+    color: #eeee;
+    padding-left: 70px;
+}
+.button{
+    padding: 0.9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    font-style: italic;
+    color:black;
+    background-color: burlywood;
+    border: none;
+    
+
+    
+}
